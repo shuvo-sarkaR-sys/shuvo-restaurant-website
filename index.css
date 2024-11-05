@@ -7,6 +7,9 @@
 .font-F{
    font-family: 'caveat', cursive;
 }
+.phone-num:hover{
+   color: #e4bb18;
+}
  .h2text{
     background: #212429;
     height: 50px;
@@ -20,6 +23,7 @@
     border-bottom: 2px dotted #e4bb18;  
     width: 100%;
     margin: 20px 0;
+    cursor: pointer;
 }
  body{
     margin: 0;
@@ -105,6 +109,9 @@
    }
 }
  @media (max-width: 1024px) {
+   .middleB{
+      padding: 20px !important;
+   }
    .main-menu{
       width: 100% !important;
      
@@ -328,7 +335,9 @@ gap: 100px;
   }
   .decoration{
     list-style: none;
-    color: white
+    color: white;
+  
+    padding: 0;
   }
   a {
    text-decoration: none;
@@ -539,4 +548,21 @@ gap: 100px;
   }
   .gallery div:hover{
       transform: rotate(-5deg) scale(0.9);
+  }
+  /* contact style start from here */
+  .text-background{
+   background: #1d1d1b;
+   
+   padding: 40px
+   
+  }
+  .middleB{
+   padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+   background-image: url('./Assets/background.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+   background-position:center;
+   overflow: hidden;
   }
